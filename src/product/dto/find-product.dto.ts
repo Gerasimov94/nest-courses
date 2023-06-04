@@ -1,4 +1,4 @@
-class FindProductDto {
+export class FindProductDto {
 	category: string;
 	limit: number;
 }
