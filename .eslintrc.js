@@ -19,7 +19,7 @@ module.exports = {
   rules: {
     "indent": "off",
     "lines-between-class-members": "off",
-    "@typescript-eslint/indent": ["error", "tab"],
+    "@typescript-eslint/indent": ["error", "tab", { "ignoredNodes": ["PropertyDefinition"] }],
     "no-tabs": ["error", { "allowIndentationTabs": true }],
     "prettier/prettier": [
 			"error",
