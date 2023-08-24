@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { AuthController } from './auth.controller';
-import { AuthModel } from 'src/auth/auth.model';
+import { AuthModel } from './auth.model';
 import { TypegooseModule } from 'nestjs-typegoose';
 
 @Module({
